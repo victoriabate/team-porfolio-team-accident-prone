@@ -6,15 +6,14 @@
 }
 
 img{
-  display: flex;
-  align-content: space-between;
-  margin: 35px;
-  height: 200px;
-  width: 30vw;
-  border-radius: 50%
+  /*display: flex;
+  align-content: space-between;*/
+  margin: 5%;
+  width: 25vw;
+  border-radius: 50%;
 }
 
 #teamBio{
+  text-align:center;
   border: solid black 3px;
-  width: 90vw;
 }

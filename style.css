@@ -1,0 +1,10 @@
+.container {
+  width:95vw;
+  height:90vh;
+}
+#personal {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  border: solid black 5px;
+}
