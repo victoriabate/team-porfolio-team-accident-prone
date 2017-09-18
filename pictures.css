@@ -3,6 +3,7 @@
   width: 800px;
   height: 250px;
   background-color: red;
+  margin-bottom: 20px;
 }
 
 img{
@@ -12,5 +13,8 @@ img{
   height: 200px;
   width: 200px;
   border-radius: 50%
+}
 
+#teamBio{
+  border-style: solid; black;
 }
