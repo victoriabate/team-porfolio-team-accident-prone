@@ -6,14 +6,25 @@
 }
 
 img{
-  /*display: flex;
-  align-content: space-between;*/
-  margin: 5%;
-  width: 25vw;
+  display: flex;
+  align-content: space-around;
+  width: 100%;
   border-radius: 50%;
 }
 
 #teamBio{
-  text-align:center;
   border: solid black 3px;
+  width: inherit;
+}
+
+.piccontact{
+text-align:center;
+}
+
+a:visited{
+  color: #0c54c9;
+}
+
+a{
+  color: #0c54c9;
 }
