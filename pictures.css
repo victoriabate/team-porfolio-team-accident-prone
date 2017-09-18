@@ -2,7 +2,6 @@
   display: flex;
   width: 800px;
   height: 250px;
-  background-color: red;
   margin-bottom: 20px;
 }
 
@@ -11,10 +10,11 @@ img{
   align-content: space-between;
   margin: 35px;
   height: 200px;
-  width: 200px;
+  width: 30vw;
   border-radius: 50%
 }
 
 #teamBio{
-  border-style: solid; black;
+  border: solid black 3px;
+  width: 90vw;
 }
