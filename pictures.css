@@ -1,6 +1,16 @@
+#container{
+  display: flex;
+  width: 800px;
+  height: 250px;
+  background-color: red;
+}
+
 img{
-  display: inline-block;
+  display: flex;
+  align-content: space-between;
+  margin: 35px;
   height: 200px;
   width: 200px;
   border-radius: 50%
+  
 }
