@@ -1,3 +1,7 @@
+body{
+  background-color: rgba(249, 223, 92, 0.75);
+}
+
 #container{
   display: flex;
   width: 800px;
