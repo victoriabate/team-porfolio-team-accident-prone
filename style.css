@@ -1,15 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Quattrocentro');
+
+body {
+  padding-top: 52px;
+}
+
 .container {
   width:95vw;
   height:90vh;
 }
-#personal {
-  display:flex;
-  flex-direction:row;
-  justify-content:space-around;
-}
 #myCarousel {
-  display: flex;
-  justify-content: center;
   width: 50vw;
-  /*align-items: center;*/
+}
+
+#carousel {
+  background-color: #18bd9b;
+  padding-top:7vh;
+  padding-bottom:7vh;
+}
+#teamBio{
+  border: solid black 3px;
+  width: inherit;
+}
+
+.piccontact{
+text-align:center;
+}
+
+a:visited{
+  color: #2d3e50;
+}
+
+a{
+  color: #2d3e50;
+}
+a:hover {
+  color: #efcf56;
+}
+
+#personal {
+  background-color: #18bd9b;
+}
+
+header {
+
+}
+
+.navbar-header, .navbar-nav, .navbar {
+  background-color: #2d3e50;
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1920px) {
+    .huge {
+      font-size:950%;
+      color:white;
+      font-family: 'Quattrocentro', serif;
+    }
+
+
+  }
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 767px) {
+.huge {
+  font-size:400%;
+  color:white;
+  font-family: 'Quattrocentro', serif;
+}
+}
+
+.spacer {
+  padding-top: 1vh;
+}
+
+.big-spacer {
+  padding-top:5vh;
+}
+.background-grey {
+  background-color: #2d3e50;
+  color:white;
 }

@@ -1,5 +1,5 @@
 body{
-  background-color: rgba(249, 223, 92, 0.75);
+  /*background-color: rgba(54, 215, 183, 1);*/
 }
 
 #container{
@@ -17,6 +17,7 @@ img{
 }
 
 #teamBio{
+  background-color: rgba(54, 215, 183, 1);
   border: solid black 3px;
   width: inherit;
 }
